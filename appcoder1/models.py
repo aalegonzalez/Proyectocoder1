@@ -18,7 +18,8 @@ class Profesor(models.Model):
     apellido = models.CharField(max_length=100)
     email = models.EmailField()
     profesion = models.CharField(max_length=100)
-    
+
+
 class Entregable(models.Model):
     nombre = models.CharField(max_length=100)
     fecha_de_entrega = models.DateField()
